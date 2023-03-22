@@ -45,3 +45,39 @@ grid-row: 1/5;
     grid-column: 1 / 5;
     grid-row: 5 / 7;
 }
+
+/*styles for the images */
+
+.img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.img:hover{
+    cursor: pointer;
+}
+
+/*styles for background imgs when changed */
+
+#main{
+    border:5px solid black;
+}
+.backgroundOne{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+
+.backgroundTwo{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(2\).jpg);
+}
+.backgroundThree{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(3\).jpg);
+}
+.backgroundFour{
+    background-image: url(images/wallpaperflare.com_wallpaper\ \(4\).jpg);
+}
+.backgroundFive{
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+}
+
